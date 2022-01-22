@@ -158,3 +158,29 @@ margin: 100px 10px ;
     
 
 }
+.menu .row .card .content .price {
+    display: inline-flex;
+    
+}
+.slider{
+    height: 70vh;
+    display: inline-flex;    
+    margin-left: 10px;
+}
+.slider .content {
+    width: 50%;
+    border: solid 1px;       
+}
+
+.slider .d-check{
+    width: 50%;
+}
+
+.slider .d-check img{
+height: 400px;
+width: 400px;
+}
+.slider .d-check .d1{
+    /* translate: 100px; */
+    margin-right: 0px;
+}
