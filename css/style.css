@@ -1,0 +1,97 @@
+:root {
+    --yellow: #ffc241;
+    --white: #ffffff;
+    --orange: #f86d3e;
+}
+
+body {
+    background: #f6f6f6;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.container {
+    height: 80vh;
+    background: #fff;
+    position: relative;
+    overflow: hidden !important;
+}
+
+.container::after {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 200%;
+    background-color: var(--yellow);
+    transform: rotate(120deg);
+    right: -25%;
+}
+
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.top-nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+.top-nav .logo .logo-text {
+    font-family: "Poppins";
+}
+
+.top-nav .logo .logo-text .yellow {
+    color: var(--yellow);
+}
+
+.main-nav ul {
+    list-style-type: none;
+}
+
+.main-nav ul li {
+    padding: 0 16px;
+    display: inline-block;
+}
+
+.main-nav ul li:last-child {
+    margin-left: 280px;
+    margin-right: 16px;
+}
+
+.main-nav ul li.active::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px;
+    background: var(--orange);
+}
+
+.main-nav ul li.icon {
+    position: relative;
+}
+
+.main-nav ul li.icon .icon-inner {
+    height: 26px;
+    width: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--orange);
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    top: -12px;
+    right: -5px;
+}
