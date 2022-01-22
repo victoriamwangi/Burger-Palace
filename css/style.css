@@ -117,7 +117,8 @@ margin: 100px 10px ;
     
  
 }
-.advert .col2{margin-top: 90px;
+.advert .col2{
+    margin-top: 90px;
      border: solid #AB888B 2px;
      border-radius: 10px;
      margin: 80px 10px;
@@ -125,22 +126,35 @@ margin: 100px 10px ;
      width: 60%;
 }
 
-.menu .card{
-    border: solid grey 2px;
-    height: 100px;
-}
-
-
 .menu{
     background-color: #fff;
+    text-align: center; 
+    
+}.menu .row{
+   display: flex ;
+    flex-direction :row Justify;
+    content:space-evenly;
+
 }
-.menu .row .card1{
-    width: 80px;
-    /* height: auto; */
-    box-shadow: grey;
-    color: red;
+.menu .row .card{
+    border: solid grey 0.7px;
+    height : 70vh;
+    width : 30% ;
+    padding: 12px ;
+    margin: 10px ;
+    box-shadow: grey ;
+    background :transparent;
+    border-radius: 15px;
+
 }
-.menu .row .card1{
-    height: 100px;
-    width:  auto;
+.menu .row .card content {
+    /* Background : red; */
+    /* Box-shadow : venye unataka  */
+    /* Height:100%; */
+}
+.menu .row .card .content img{
+    max-width: 100%;
+    height: auto;
+    
+
 }
