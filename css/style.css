@@ -95,3 +95,37 @@ body {
     top: -12px;
     right: -5px;
 }
+
+.advert{
+    display:inline-flex;
+    padding: 10px;
+    background-color: #F7FDF6;
+    
+}
+.advert .col1 {
+    border: solid #AB888B 2px;
+    border-radius: 10px;
+margin: 100px 10px ;
+    align-items: center;
+    height: 150px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+ 
+}
+.advert .col2{margin-top: 90px;
+     border: solid #AB888B 2px;
+     border-radius: 10px;
+     margin: 80px 10px;
+     align-items: center;
+     width: 60%;
+}
+
+.menu .card{
+    border: solid grey 2px;
+    height: 100px;
+}
