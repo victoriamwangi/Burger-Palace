@@ -245,4 +245,11 @@ align-items: center;
 .footer .infor .contact .send label{
     background-color: var(--yellow);
 }
-  
+.footer .copy-right{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .copy-right .social-media{
+    display: flex;
+    justify-content: space-evenly;
+}
