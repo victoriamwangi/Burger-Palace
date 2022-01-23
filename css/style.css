@@ -11,7 +11,8 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Poppins";
+    font-family: "Poppins" , sans-serif;
+    
 }
 
 .container {
@@ -44,8 +45,9 @@ body {
     object-position: 50% 50%;
     margin-top: 50px;
     height: 500px;
-    
-
+}
+.container .welcome button{
+    background-color: var(--orange);
 }
 .container::after {
     content: "";
@@ -75,7 +77,7 @@ body {
 }
 
 .top-nav .logo .logo-text {
-    font-family: "Poppins";
+    font-family: "Lato Extended", ;
 }
 
 .top-nav .logo .logo-text .yellow {
@@ -146,7 +148,15 @@ body {
 .menu{
     background-color: #fff;
     text-align: center; 
+    padding-top: 135px;
     
+}
+.menu .p-menu{
+    font-size: 35px;
+    font-weight:800;
+}
+.menu span{
+    color: var(--yellow);
 }.menu .row{
    display: flex ;
     justify-content: space-evenly;
@@ -161,10 +171,9 @@ body {
     border-radius:45px;
 
 }
-.menu .row .card content {
-    /* Background : red; */
-    /* Box-shadow : venye unataka  */
-    /* Height:100%; */
+.menu .row .card .content .burger-name{
+    color: rgb(90, 21, 24);
+    font-weight: 700;
 }
 .menu .row .card .content img{
     max-width: 100%;
@@ -183,7 +192,7 @@ body {
     display: inline-flex;
     background-color: #E1EBE6;
     font-size: 30px;
-    overflow: auto;
+    
 }
 .slider{
     height: 70vh;
@@ -192,14 +201,26 @@ body {
    
 }
 .slider .content {
-    width: 50%;
-    border: solid 1px;       
+    width: 40%;
+    padding-left: 50px;
+
+}
+.slider .content .slider-text{
+font-size: 40px;
+font-weight: 900;
+}
+.slider .content .slider-text span {
+    color: var(--yellow);
+}
+.slider .content .slider-text1 {
+    font-size: 20px;
+    color: #807A79;
 }
 
 .slider .d-check{
 
-    width: 50%;
-    Display :flex; 
+    width: 60%;
+    display :flex; 
     justify-content: flex-start; 
     Align-items: bottom;
      position: relative;
@@ -209,14 +230,17 @@ body {
 height: 300px;
 width: 300px;
 }
-.slider .d-check .d2{
-object-position: 28px 30px;
-
+.slider .d-check .d1{
+    position: absolute;
+    z-index: 2;
+ object-position: 6px 7px;
 
 }
-.slider .d-check .d1 {
-    z-index: 999;
-    object-position:28px 30px;
+.slider .d-check .d2 {
+    position: absolute;
+    z-index: 1;
+    object-position: 6px 7px;
+
     
 }
 
