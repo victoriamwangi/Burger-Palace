@@ -242,14 +242,15 @@ width: 300px;
 .slider .d-check .d1{
     position: absolute;
     z-index: 2;
- object-position: 6px 7px;
+ top:10%; 
+ Left: 108px;
 
 }
 .slider .d-check .d2 {
     position: absolute;
     z-index: 1;
-    object-position: 6px 7px;
-
+     top:7%;
+     Left: 235px;
     
 }
 
@@ -331,5 +332,8 @@ list-style-type: none;
 
 .footer .copy-right .social-media {
     display: flex;
-    justify-content: space-between;    
+    /* justify-content: space-between;     */
+}
+.footer .copy-right .social-media li{
+    margin: 10px;
 }
