@@ -13,7 +13,9 @@ body {
     box-sizing: border-box;
     font-family: "Poppins";
 }
-
+.wrapper img{
+    z-index: +1;
+}
 .container {
     height: 80vh;
     background: #fff;
@@ -103,26 +105,17 @@ body {
     
 }
 .advert .col1 {
-    border: solid #AB888B 2px;
+    border: solid #AB888B 0.7px;
     border-radius: 10px;
-margin: 100px 10px ;
-    align-items: center;
+    margin: 100px 10px ;
     height: 150px;
     width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    
-    
- 
+    padding: 40px;
 }
 .advert .col2{
-    margin-top: 90px;
-     border: solid #AB888B 2px;
+     border: solid #AB888B 0.7px;
      border-radius: 10px;
      margin: 80px 10px;
-     align-items: center;
      width: 60%;
 }
 
@@ -132,18 +125,16 @@ margin: 100px 10px ;
     
 }.menu .row{
    display: flex ;
-    flex-direction :row Justify;
     justify-content: space-evenly;
 }
 .menu .row .card{
     border: solid grey 0.7px;
-    height : 70vh;
-    width : 30% ;
+    height : 70vh;  
     padding: 12px ;
-    margin: 10px ;
-    box-shadow: grey ;
+    margin: 35px ;
+    box-shadow: 3px 6px 1px#E2E2E2;
     background :transparent;
-    border-radius: 15px;
+    border-radius:45px;
 
 }
 .menu .row .card content {
@@ -158,8 +149,17 @@ margin: 100px 10px ;
 
 }
 .menu .row .card .content .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.menu .row .card .content .price .cart{
     display: inline-flex;
-    
+    background-color: #E1EBE6;
+    font-size: 30px;
+    overflow: auto;
 }
 .slider{
     height: 70vh;
@@ -234,6 +234,9 @@ align-items: center;
 .footer .infor .logo .yellow{
    color: var(--yellow);
 }
+.footer .infor .quick-links ul{
+list-style-type: none;
+}
 .footer .infor .contact .send{
     display: flex;
     align-items: center;
@@ -252,4 +255,6 @@ align-items: center;
 .footer .copy-right .social-media{
     display: flex;
     justify-content: space-evenly;
+    
+    
 }
