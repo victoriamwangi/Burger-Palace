@@ -133,8 +133,7 @@ margin: 100px 10px ;
 }.menu .row{
    display: flex ;
     flex-direction :row Justify;
-    content:space-evenly;
-
+    justify-content: space-evenly;
 }
 .menu .row .card{
     border: solid grey 0.7px;
@@ -199,7 +198,7 @@ object-position: 28px 30px;
 
 .discover{
     display: flex;
-    content: space-evenly ;
+    justify-content: space-evenly;
     background-color: var(--yellow);
     
     
@@ -212,7 +211,6 @@ object-position: 28px 30px;
 }
 .discover .screen{
     position: relative;
-    width: 50%;
     padding: 71px 20px 50px 20px;
     
     
@@ -220,3 +218,31 @@ object-position: 28px 30px;
 .discover .screen .mob2{
 padding-left: 95px;     
 }
+
+
+.footer{
+background-color: F7FDF6;
+}
+.footer .infor{
+display: flex;
+justify-content: space-evenly;
+}
+.footer .infor .logo{
+display: flex;
+align-items: center;
+}
+.footer .infor .logo .yellow{
+   color: var(--yellow);
+}
+.footer .infor .contact .send{
+    display: flex;
+    align-items: center;
+}
+.footer .infor .contact .send textarea{
+    width: 157px;
+    height: 20px;
+}
+.footer .infor .contact .send label{
+    background-color: var(--yellow);
+}
+  
