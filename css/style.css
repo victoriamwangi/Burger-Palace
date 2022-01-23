@@ -51,6 +51,7 @@ body {
     height: 38px;
     width: 116px;
     border-radius: 5px;
+
     }
 .container::after {
     content: "";
@@ -196,7 +197,7 @@ body {
 .menu .row .card .content .price .cart{
     display: inline-flex;
     background-color: #E1EBE6;
-    font-size: 30px;
+    font-size: 38px;
     
 }
 .slider{
