@@ -214,6 +214,8 @@ body {
 .slider .content {
     width: 40%;
     padding-left: 50px;
+    Display: flex; 
+    Flex-direction: column;
 
 }
 .slider .content .slider-text{
@@ -226,6 +228,14 @@ font-weight: 900;
 .slider .content .slider-text1 {
     font-size: 20px;
     color: #807A79;
+}
+.slider .indicators.fa {
+        Background: #ddd;
+        margin: 0px 12px;
+    
+}
+.slider .indicators .fa.active {
+    Background: var(--orange);
 }
 
 .slider .d-check{
