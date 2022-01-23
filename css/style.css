@@ -129,7 +129,7 @@ body {
 
 .advert{
     display:inline-flex;
-    padding: 10px;
+    padding: 5px;
     background-color: #F7FDF6;
     
 }
@@ -151,7 +151,7 @@ body {
 .menu{
     background-color: #fff;
     text-align: center; 
-    padding-top: 60px;
+    padding-top: 20px;
     
 }
 .menu .p-menu{
@@ -161,13 +161,7 @@ body {
 .menu span{
     color: var(--yellow);
 }
-/* .menu .p-menu .mark::after {
-    content: "";
-    display: block;
-    width: 20px;
-    height: 10px;
-    background: var(--orange);
-} */
+
 .menu .row{
    display: flex ;
     justify-content: space-evenly;
