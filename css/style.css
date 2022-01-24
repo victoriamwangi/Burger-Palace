@@ -48,6 +48,10 @@ body {
 }
 .container .welcome button{
     background-color: var(--orange);
+    width: 136px;
+    height: 46px;
+    border-radius: 22px;
+    font-size: medium;
 }
 .container::after {
     content: "";
@@ -152,7 +156,7 @@ body {
 .menu{
     background-color: #fff;
     text-align: center; 
-    padding-top: 135px;
+    padding-top: 35px;
     
 }
 .menu .p-menu{
@@ -207,7 +211,22 @@ body {
 .slider .content {
     width: 40%;
     padding-left: 50px;
+    display: flex;
+    flex-direction :column;
+}
+.slider .content .indicators{
+       display: flex;
+       flex-direction : row;
+       align-items : center;
 
+}
+.slider .content .indicators .fa {
+    Background: #ddd;
+    margin: 0px 12px;
+}
+
+.slider .content .indicators .fa.active {
+    background: var(--orange);
 }
 .slider .content .slider-text{
 font-size: 40px;
@@ -220,6 +239,7 @@ font-weight: 900;
     font-size: 20px;
     color: #807A79;
 }
+
 
 .slider .d-check{
 
@@ -237,13 +257,16 @@ width: 300px;
 .slider .d-check .d1{
     position: absolute;
     z-index: 2;
- object-position: 6px 7px;
+     top:15%;
+     Left: 90px;
+
 
 }
 .slider .d-check .d2 {
     position: absolute;
     z-index: 1;
-    object-position: 6px 7px;
+   top:8%;
+   Left: 217px;
 
     
 }
@@ -290,6 +313,8 @@ align-items: center;
 .footer .infor .quick-links ul{
 list-style-type: none;
 }
+
+
 .footer .infor .contact .send{
     display: flex;
     align-items: center;
@@ -298,8 +323,9 @@ list-style-type: none;
     width: 157px;
     height: 20px;
 }
-.footer .infor .contact .send label{
+.footer .infor .contact .send button{
     background-color: var(--yellow);
+    height: 29px;
 }
 .footer .copy-right{
     display: flex;
@@ -309,5 +335,10 @@ list-style-type: none;
 .footer .copy-right .social-media{
     display: flex;
     justify-content: space-evenly;   
+    margin: 5px;
     
+}
+.footer .copy-right .social-media li{
+     margin: 5px;
+
 }
