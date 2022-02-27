@@ -10,7 +10,6 @@
 - [Installation Requirement](#Installation)
 - [Technology Used](#technology-used)
 - [Reference](#reference)
-- [Licence](#licence)
 - [Authors Info](#author-Info)
 
 ## Description
@@ -42,3 +41,9 @@ git clone https://github.com/victoriamwangi/Burger-Palace.git
 
 - Materialize CSS
   [Go Back to the top](#description)
+  [Go Back to the top](#description)
+
+## Authors Info
+-LinkedIn - [VICTORIA MWANGI](https://www.linkedin.com/in/victoria-mwangi-5bb054203/)
+
+[Go Back to the top](#description)
