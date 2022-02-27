@@ -250,7 +250,7 @@ body {
   margin: 0px 12px;
 }
 .slider .indicators .fa.active {
-  background: var(--orange);
+  color: var(--orange);
 }
 
 .slider .d-check {
